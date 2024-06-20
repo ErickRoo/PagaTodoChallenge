@@ -1,0 +1,12 @@
+.rootBankPage {
+  display: flex;
+  flex-direction: column;
+}
+
+.titleBankPage {
+  font-size: 3rem;
+  line-height: 1;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}

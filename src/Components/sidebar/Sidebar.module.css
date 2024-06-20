@@ -1,0 +1,14 @@
+.sidebarContainer {
+  background-color: rgb(17 24 39);
+  min-height: 100vh;
+  z-index: 10;
+  color: rgb(203 213 225);
+  width: 16rem; /* 256px */
+  left: 0px;
+  overflow-y: auto;
+}
+
+.logo {
+  margin: 0 20px;
+  padding: 26px 0;
+}

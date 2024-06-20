@@ -1,0 +1,53 @@
+.rootCard {
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 220px;
+  background-color: white;
+}
+
+.contentCard {
+  border-radius: 0.25rem;
+  overflow: hidden;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  background-color: rgb(31 41 55);
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.infoCard {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 16px;
+  border-bottom-width: 1px;
+  --tw-text-opacity: 1;
+  color: rgb(249 250 251 / var(--tw-text-opacity));
+}
+
+.bankName {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 8px 0;
+}
+
+.bankAge, .bankDescription {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 600;
+  padding: 8px 0;
+}
+
+.bankButton {
+  padding: 6px 12px;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+  width: 50%;
+  font-weight: bold;
+  margin-bottom: 12px;
+}

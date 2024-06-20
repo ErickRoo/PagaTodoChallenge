@@ -1,0 +1,23 @@
+.root {
+  background-color: rgb(241 245 249);
+  overflow-y: auto;
+  width: 100%;
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: rgb(203 213 225);
+}
+
+.root::selection {
+  background-color: red;
+  color: white;
+}
+
+.dashboard {
+  display: flex;
+}
+
+.content {
+  width: 100%;
+  color: rgb(15 23 42);
+}
