@@ -24,11 +24,9 @@ export const BankGrid = ({ getBanks }: Props) => {
   return (
     <>
       <div className={styles.buttonsGridBank}>
-        {banks && (
-          <button className={styles.getBankButton} onClick={handleGetBanks}>
-            GET Banks
-          </button>
-        )}
+        <button className={styles.getBankButton} onClick={handleGetBanks}>
+          GET Banks
+        </button>
 
         <button className={styles.sortBankButton} onClick={handleSortBanks}>
           SORT by Name
