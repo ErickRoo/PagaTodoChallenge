@@ -35,7 +35,7 @@ export const BankGrid = ({ getBanks }: Props) => {
         </button>
       </div>
       <div className={styles.bankGrid}>
-        {banks.map((bank) => (
+        {banks && banks.map((bank) => (
           <BankCard key={bank.bankName} bank={bank} />
         ))}
       </div>
