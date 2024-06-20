@@ -24,7 +24,7 @@ export const BankGrid = ({ getBanks }: Props) => {
   return (
     <>
       <div className={styles.buttonsGridBank}>
-        {banks.length === 0 && (
+        {banks && (
           <button className={styles.getBankButton} onClick={handleGetBanks}>
             GET Banks
           </button>

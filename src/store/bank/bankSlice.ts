@@ -37,7 +37,6 @@ const bankSlice = createSlice({
     },
     sortBanks(state) {
 
-      if (state.banks.length === 0) return;
       state.banks = state.banks.sort((a, b) => {
         const nameA = a.bankName.toUpperCase();
         const nameB = b.bankName.toUpperCase();
