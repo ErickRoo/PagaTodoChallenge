@@ -13,7 +13,7 @@ const getBanks = async (): Promise<SimpleBank[]> => {
   const data: BankResponse = await fetch("https://dev.obtenmas.com/catom/api/challenge/banks")
     .then(res => res.json());
   
-  const banks = data.map((bank, idx) => ({
+  const banks = data && data.map((bank, idx) => ({
     ...bank,
     _id: `${idx+1}`,
   }))
